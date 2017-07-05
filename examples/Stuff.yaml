@@ -1,0 +1,23 @@
+- 1 month ago:
+    condition:
+      age: '>= 4 weeks'
+    actions:
+      - move: ~/Stuff/1 month ago
+
+- 3 weeks ago:
+    condition:
+      age: '>= 3 weeks'
+    actions:
+      - move: ~/Stuff/3 weeks ago
+
+- 2 weeks ago:
+    condition:
+      age: '>= 2 weeks'
+    actions:
+      - move: ~/Stuff/2 weeks ago
+
+- 1 week ago:
+    condition:
+      age: '>= 1 weeks'
+    actions:
+      - move: ~/Stuff/1 week ago

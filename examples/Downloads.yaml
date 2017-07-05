@@ -1,0 +1,27 @@
+- Pictures:
+    condition:
+      all:
+        - mime: image/.*
+    actions:
+      - move: ~/Downloads/Pictures
+
+- Videos:
+    condition:
+      all:
+        - mime: video/.*
+    actions:
+      - move: ~/Downloads/Videos
+
+- Audio:
+    condition:
+      all:
+        - mime: audio/.*
+    actions:
+      - move: ~/Downloads/Audio
+
+- Other:
+    condition:
+      all:
+        - mime: application/.*
+    actions:
+      - move: ~/Downloads/Other
