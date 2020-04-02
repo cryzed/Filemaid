@@ -1,2 +1,2 @@
 python-magic==0.4.13
-PyYAML==3.12
+PyYAML==5.1
